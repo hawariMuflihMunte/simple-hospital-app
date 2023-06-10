@@ -237,6 +237,11 @@ def program():
             print("==========================================================")
             print("#    Selamat Datang di Program Pembayaran Rumah Sakit    #")
             print("==========================================================")
+            print(f"Nama Pasien: {patient_name}")
+            print(f"Tempat, Tanggal Lahir: {date_birth}")
+            print(f"Alamat: {address}")
+            print(f"Kontak: {contact}")
+            print(f"Penyakit: {illness}")
             print(f"Total Tagihan untuk Pasien {patient_name}: {total_expenses}")
             user_input_payment = input("\n> ")
 
